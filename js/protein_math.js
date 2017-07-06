@@ -2,7 +2,9 @@
 var food_name = document.querySelector('input.food_name');
 var food_weight = document.querySelector('input.food_weight');
 var calculate = document.querySelector('button.submit');
+var clear = document.querySelector('button.clear');
 var print_answer = document.querySelector('div.print_answer');
+
 
 calculate.addEventListener('click', function(){
   var food;
@@ -11,6 +13,7 @@ calculate.addEventListener('click', function(){
   var calculation;
   var answer = document.createElement('h1')
       answer.className = "margin-bottom-20";
+      
   // Loop through directory
   for (var i = 0; i < food_directory.length; i ++ ){
 
