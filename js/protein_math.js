@@ -23,6 +23,8 @@ calculate.addEventListener('click', function(){
       answer.textContent = calculation;
       print_answer.appendChild(answer);
       console.log(answer);
+
+      food_weight.value ='';
     }
   }
 });
