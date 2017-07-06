@@ -21,7 +21,7 @@ var food_directory =[
   },
   {
     name: 'parsnip',
-    protein: 0.9
+    protein: 1.8
   },
   {
     name: 'butternut squash',
