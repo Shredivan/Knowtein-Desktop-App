@@ -35,10 +35,12 @@ button:hover{
 }
 
 h1{
+  font-weight: bold;
   font-size: 24px;
 }
 
 h3{
+  font-weight: normal;
   font-size: 16px;
 }
 
@@ -96,10 +98,10 @@ h3{
 /* Form Classes */
 
 .print_answer{
-  min-height: 100px;
-  width: 308px;
-  background-color: white;
-  border: 1px solid black;
+  min-height: 75px;
+  width: 300px;
+  background-color: #fafbfc;
+  border-bottom: 1px solid black;
 }
 
 /* End of Form Classes */
