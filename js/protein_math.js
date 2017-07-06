@@ -10,17 +10,18 @@ calculate.addEventListener('click', function(){
   var food;
   var weight;
   var calculation;
-  var answer = document.createElement('h3')
+  var answer = document.createElement('h1')
       answer.className = "margin-bottom-20";
   // Loop through directory
-  for (var i = 0; i <= food_directory.length; i ++ ){
+  for (var i = 0; i < food_directory.length; i ++ ){
 
     // Variable to clean up code and make i value more readable
+    food = food_directory[i];
     weight = parseFloat(food_weight.value);
 
     // Check if food name is in directory
-    if(food_name.value == food_directory[i].name){
-      calculation = food_directory[i].protein/100 * weight;
+    if(food_name.value == food.name){
+      calculation = food.protein/100 * weight;
       answer.textContent = calculation;
       print_answer.appendChild(answer);
       console.log(answer);
