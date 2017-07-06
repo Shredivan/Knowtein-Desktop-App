@@ -5,12 +5,10 @@ var food_directory =[
   },
   {
     name: 'carrots',
-    // Change later!
     protein: 0.9
   },
   {
     name: 'cucumber',
-    // Change later!
     protein: 0.9
-  },
-]
+  }
+];
