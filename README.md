@@ -4,4 +4,4 @@ Web app to make planning and managing your metabolic disorder easier.
 
 **Disclaimer:**
 This is a personal project and may produce errors. 
-Please use at your own risk and always make sure to double check the results you get.
+If you are going to use it to help monitor your protein intake, you do so at your own risk. Please do so with caution as the app may produce bugs.
