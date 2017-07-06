@@ -1,5 +1,3 @@
-// Test Value
-var protein_per_hundred = 2.4;
 // Declare DOM Components
 var food_name = document.querySelector('input.food_name');
 var food_weight = document.querySelector('input.food_weight');
