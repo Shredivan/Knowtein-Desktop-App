@@ -7,7 +7,7 @@ This is a personal project.
 If you are going to use it to help monitor your protein intake, you do so at your own risk. Please do so with caution.
 
 
-TODO: 
+**TODO:** 
 * Add Dashboard with ability for user to add blood results and track progress over year
 * Refactor calculator code into one with and rename file to calculator.js
   * Refactor algorithim to use binary search as data make become very large
