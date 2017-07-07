@@ -13,6 +13,12 @@ calculate.addEventListener('click', function(){
   var name;
   var calculation;
 
+function calculation(){
+  calculation = food.protein/100 * weight;
+  answer.textContent = calculation;
+  print_answer.appendChild(answer);
+}
+
   // Loop through directory
   for (var i = 0; i < food_directory.length; i ++ ){
 
@@ -23,13 +29,9 @@ calculate.addEventListener('click', function(){
 
     // Check if food name is in directory
     if(name == food.name){
-
-      // TODO: Create a function for this
-      calculation = food.protein/100 * weight;
-      answer.textContent = calculation;
-      print_answer.appendChild(answer);
-      console.log(answer);
-
+      calculation();
+      
+      // clear weight input field
       food_weight.value ='';
     }
   }
