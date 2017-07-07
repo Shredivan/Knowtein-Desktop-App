@@ -1,8 +1,8 @@
 // Declare DOM Components
 var food_name = document.querySelector('input.food_name');
 var exchanges = document.querySelector('input.exchanges');
-var calculate = document.querySelector('button.submit');
-var clear = document.querySelector('button.clear');
+var calculate = document.querySelector('button.submit_button');
+var clear = document.querySelector('button.clear_button');
 var print_answer = document.querySelector('div.print_answer');
 var answer = document.createElement('h1')
     answer.className = "margin-bottom-20";

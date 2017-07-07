@@ -1,8 +1,9 @@
 // Declare DOM Components
+// TODO: Remove duplication of variables across files!!
 var food_name = document.querySelector('input.food_name');
 var food_weight = document.querySelector('input.food_weight');
-var calculate = document.querySelector('button.submit');
-var clear = document.querySelector('button.clear');
+var calculate = document.querySelector('button.submit_button');
+var clear = document.querySelector('button.clear_button');
 var print_answer = document.querySelector('div.print_answer');
 var answer = document.createElement('h1')
     answer.className = "margin-bottom-20";
@@ -12,6 +13,7 @@ calculate.addEventListener('click', function(){
   var weight;
   var name;
   var calculation;
+  var grams;
 
   // Loop through directory
   // TODO: Binary Search to increase efficiency of Search.
