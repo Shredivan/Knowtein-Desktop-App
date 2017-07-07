@@ -13,13 +13,8 @@ calculate.addEventListener('click', function(){
   var name;
   var calculation;
 
-function calculation(){
-  calculation = food.protein/100 * weight;
-  answer.textContent = calculation;
-  print_answer.appendChild(answer);
-}
-
   // Loop through directory
+  // TODO: Binary Search to increase efficiency of Search.
   for (var i = 0; i < food_directory.length; i ++ ){
 
     // Variable to clean up code and make i value more readable
@@ -29,8 +24,10 @@ function calculation(){
 
     // Check if food name is in directory
     if(name == food.name){
-      calculation();
-      
+      calculation = food.protein/100 * weight;
+      answer.textContent = calculation;
+      print_answer.appendChild(answer);
+
       // clear weight input field
       food_weight.value ='';
     }
@@ -42,5 +39,4 @@ clear.addEventListener('click', function(){
   food_name.value ='';
   food_weight.value ='';
   print_answer.removeChild(answer);
-
 })
