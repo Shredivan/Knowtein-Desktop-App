@@ -16,8 +16,8 @@ calculate.addEventListener('click', function(){
   var grams;
 
   // Loop through directory
-  // TODO: Binary Search to increase efficiency of Search.
-  for (var i = 0; i < food_directory.length; i ++ ){
+  // TODO: Binary Search to increase efficiency
+  for (var i = 0; i < food_directory.length; i++ ){
 
     // Variable to clean up code and make i value more readable
     food = food_directory[i];
