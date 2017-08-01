@@ -4,7 +4,7 @@ Web app to make planning and managing your metabolic disorder easier.
 
 **Disclaimer:**
 This is a personal project. 
-If you are going to use it to help monitor your protein intake, you do so at your own risk. Please do so with caution.
+If you are going to use it to help monitor your protein intake, you do so at your own risk.
 
 
 **TODO:** 
@@ -15,7 +15,7 @@ If you are going to use it to help monitor your protein intake, you do so at you
 * Create exchanges tracker for the day
 * Allow user to store recipes/favourite foods
 * Integrate Bootstrap to ensure cross browser compatibility and begin overriding styles
-* Set up project as Flask app
+* Set up project as Django app
   * Create accounts
   * Create database for exchanges for day
   * Store Recipes
