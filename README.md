@@ -9,8 +9,7 @@ If you are going to use it to help monitor your protein intake, you do so at you
 
 **TODO:** 
 * Add Dashboard with ability for user to add blood results and track progress over year
-* Refactor calculator code into one with and rename file to calculator.js
-  * Refactor algorithim to use binary search as data may become very large
+* Refactor algorithim to use binary search as data may become very large
 * Make index.html the dashboard page and seperate calculator into two html pages — May use tabs later
 * Create exchanges tracker for the day
 * Allow user to store recipes/favourite foods
