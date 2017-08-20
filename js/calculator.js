@@ -64,7 +64,7 @@ calculate.addEventListener('click', function(){
   }
 });
 
-// Clear Form
+// Clear form
 clear.addEventListener('click', function(){
   // Clear content from input form
   food_name.value ='';
