@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82d5a58-8c61-476a-b85b-de926c92faf0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/protein_math.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/exchanges_math.js" afterPath="$PROJECT_DIR$/js/calculator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exchanges_calculator.html" afterPath="$PROJECT_DIR$/exchanges_calculator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weight_calculator.html" afterPath="$PROJECT_DIR$/weight_calculator.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/calculator.js" afterPath="$PROJECT_DIR$/js/calculator.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +16,8 @@
       <file leaf-file-name="calculator.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/calculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+            <state relative-caret-position="413">
+              <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -63,6 +58,7 @@
         <option value="$PROJECT_DIR$/js/exchanges_math.js" />
         <option value="$PROJECT_DIR$/exchanges_calculator.html" />
         <option value="$PROJECT_DIR$/weight_calculator.html" />
+        <option value="$PROJECT_DIR$/js/calculator.js" />
       </list>
     </option>
   </component>
@@ -272,8 +268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        <state relative-caret-position="413">
+          <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
           <folding />
         </state>
       </provider>

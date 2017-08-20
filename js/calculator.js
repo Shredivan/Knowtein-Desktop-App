@@ -37,7 +37,7 @@ calculate.addEventListener('click', function(){
     weight = parseFloat(food_weight.value);
     name = food_name.value.toLowerCase();
 
-
+    // If the form is to calculate food weight
     if(label_exchanges){
         // Check if food name is in directory
         if(name == food.name){
@@ -48,7 +48,10 @@ calculate.addEventListener('click', function(){
           // clear weight input field
           food_weight.value ='';
         }
-    }else if(label_weight){
+    }
+    // If the form is to calculate food exchanges
+    else if(label_weight){
+        // Check if food name is in directory
         if(name == food.name){
            calculation = food.protein/100 * weight;
            answer.textContent = calculation;
