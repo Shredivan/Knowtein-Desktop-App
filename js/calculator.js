@@ -1,5 +1,4 @@
 // Declare DOM Components
-
 // Inputs
 var food_name = document.querySelector('input.food_name');
 var food_weight = document.querySelector('input.food_weight');
