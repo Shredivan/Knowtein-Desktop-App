@@ -10,7 +10,6 @@ var exchanges = document.querySelector('input.exchanges');
 var label_exchanges = document.querySelector('label.food_exchanges');
 var label_weight = document.querySelector('label.food_weight');
 
-
 // Buttons
 var calculate = document.querySelector('button.submit_button');
 var clear = document.querySelector('button.clear_button');
@@ -29,7 +28,7 @@ calculate.addEventListener('click', function(){
 
   // Loop through directory
   // TODO: Binary Search to increase efficiency
-  for (var i = 0; i < food_directory.length; i++ ){
+  for(var i = 0; i < food_directory.length; i++ ){
 
     // Variable to clean up code and make i value more readable
     food = food_directory[i];
