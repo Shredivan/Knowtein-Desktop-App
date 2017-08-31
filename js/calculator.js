@@ -23,11 +23,12 @@
         answer.className = "margin-bottom-20";
 
     // Form Event Listener
+    // TODO: Add event listener on form, not submit button
     calculate.addEventListener('click', function(){
 
       // Loop through directory
       // TODO: Binary Search to increase efficiency
-      for(var i = 0; i < food_directory.length; i++ ){
+      for(var i = 0; i < food_directory.length; i += 1 ){
 
         // Variable to clean up code and make i value more readable
         var food = food_directory[i];
