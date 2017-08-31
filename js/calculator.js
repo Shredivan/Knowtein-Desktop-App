@@ -4,27 +4,27 @@
 
     // Declare DOM Components
     // Inputs
-    var food_name = document.querySelector('input.food_name');
-    var food_weight = document.querySelector('input.food_weight');
-    var exchanges = document.querySelector('input.exchanges');
+    var food_name = document.querySelector("input.food_name");
+    var food_weight = document.querySelector("input.food_weight");
+    var exchanges = document.querySelector("input.exchanges");
 
     // Labels
     // Check which value user is trying to find and adjust algorithim
-    var label_exchanges = document.querySelector('label.food_exchanges');
-    var label_weight = document.querySelector('label.food_weight');
+    var label_exchanges = document.querySelector("label.food_exchanges");
+    var label_weight = document.querySelector("label.food_weight");
 
     // Buttons
-    var calculate = document.querySelector('button.submit_button');
-    var clear = document.querySelector('button.clear_button');
+    var calculate = document.querySelector("button.submit_button");
+    var clear = document.querySelector("button.clear_button");
 
     // Print answer to DOM
-    var print_answer = document.querySelector('div.print_answer');
-    var answer = document.createElement('h1')
+    var print_answer = document.querySelector("div.print_answer");
+    var answer = document.createElement("h1");
         answer.className = "margin-bottom-20";
 
     // Form Event Listener
     // TODO: Add event listener on form, not submit button
-    calculate.addEventListener('click', function(){
+    calculate.addEventListener("click", function(){
 
       // Loop through directory
       // TODO: Binary Search to increase efficiency
@@ -45,7 +45,7 @@
               print_answer.appendChild(answer);
 
               // clear weight input field
-              food_weight.value ='';
+              food_weight.value = "";
             }
         }
         // If the form is to calculate food exchanges
@@ -57,17 +57,17 @@
                print_answer.appendChild(answer);
 
                // clear weight input field
-               food_weight.value ='';
+               food_weight.value = "";
             }
         }
       }
     });
 
     // Clear form
-    clear.addEventListener('click', function(){
+    clear.addEventListener("click", function(){
       // Clear content from input form
-      food_name.value ='';
-      food_weight.value ='';
+      food_name.value = "";
+      food_weight.value = "";
       print_answer.removeChild(answer);
     })
 })();
