@@ -52,7 +52,7 @@
         else if(label_weight){
             // Check if food name is in directory
             if(name == food.name){
-               calculation = food.protein/100 * weight;
+               var calculation = food.protein/100 * weight;
                answer.textContent = calculation;
                print_answer.appendChild(answer);
 
