@@ -39,7 +39,7 @@
         // If the form is to calculate food weight
         if(label_exchanges){
             // Check if food name is in directory
-            if(name == food.name){
+            if(name === food.name){
               var calculation = 100/food.protein * exchanges;
               answer.textContent = calculation;
               print_answer.appendChild(answer);
@@ -51,7 +51,7 @@
         // If the form is to calculate food exchanges
         else if(label_weight){
             // Check if food name is in directory
-            if(name == food.name){
+            if(name === food.name){
                var calculation = food.protein/100 * weight;
                answer.textContent = calculation;
                print_answer.appendChild(answer);
