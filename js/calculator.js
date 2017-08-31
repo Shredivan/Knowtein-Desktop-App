@@ -1,5 +1,5 @@
 // Wrap script in sell calling function
-// to prevent pollution of global scope
+// to prevent pollution of global namespace
 (function(){
 
     // Declare DOM Components
