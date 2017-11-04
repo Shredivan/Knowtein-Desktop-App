@@ -1,4 +1,4 @@
-// Wrap script in sell calling function
+// Wrap script in self calling function
 // to prevent pollution of global namespace
 (function(){
 
